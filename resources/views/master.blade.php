@@ -18,8 +18,8 @@
     <body>
         {{View::make('header')}}
         @yield('login')
-        <!-- {{View::make('product')}} -->
-        <!-- {{View::make('footer')}} -->
+        {{View::make('product')}}
+        {{View::make('footer')}}
    </body>
 </html>
 <script>
